@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34808.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/c_projects/ter/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "fde65e4a47137b350feec601cc786057d469526f89b97a9483150e209a61a9dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_projects/ter/strategy.h"
+          },
+          "hashes": {
+            "sha-256": "dfe660e1a9f6b698a5fc48b2e967c35dc4027c8c98e1f4587677cfe7c222ef8c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_projects/ter/train.h"
+          },
+          "hashes": {
+            "sha-256": "b76da8013bc54b178084e50a61568e135afdefbc67ce4402b22c97ff1f0f4873"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_projects/ter/debug.h"
+          },
+          "hashes": {
+            "sha-256": "c1991cd6b8326a9a10ddbe5ff7af8935739a83c8bc76a1f70c131029ae826fef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/c_projects/ter/ter.h"
+          },
+          "hashes": {
+            "sha-256": "29c03e006d8eeea537d38c7d4e1c7710c6b3497932b4c0bede151c16bf2ad210"
+          }
+        }
+      ]
+    }
+  ]
+}

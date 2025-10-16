@@ -1,0 +1,8 @@
+﻿  main.cpp
+D:\C_Projects\ter\main.cpp(29,10): warning C4475: “printf”: 不可在格式说明符中将长度修饰符“ll”与类型字段字符“f”一起使用
+D:\C_Projects\ter\main.cpp(22,9): warning C4101: “endtime”: 未引用的局部变量
+D:\C_Projects\ter\ter.h(130,1): warning C4715: “rotate”: 不是所有的控件路径都返回值
+D:\C_Projects\ter\ter.h(74,1): warning C4715: “num2ter”: 不是所有的控件路径都返回值
+D:\C_Projects\ter\ter.h(105,1): warning C4715: “char2num”: 不是所有的控件路径都返回值
+D:\C_Projects\ter\strategy.h(105,1): warning C4715: “whereAngleStarts”: 不是所有的控件路径都返回值
+  ter.vcxproj -> D:\C_Projects\ter\x64\Debug\ter.exe
